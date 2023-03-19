@@ -5,7 +5,7 @@ Next in the list of adding features:
 - [ ] Brainstorm for omnichannel conversations
 
 Libraries included: 
-- [ ] Twilio
+- [X] Twilio
 - [ ] Message Bird
 - [ ] InfoBip
 - [ ] Courier

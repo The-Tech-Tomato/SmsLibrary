@@ -2,11 +2,13 @@ package com.techtomato.SmsLibrary.domain;
 
 public class Sms {
     private String to;
-    private String messge;
+    private String message;
+    private String from;
 
-    public Sms(String to, String messge) {
+    public Sms(String to, String from,  String message) {
         this.to = to;
-        this.messge = messge;
+        this.message = message;
+        this.from = from;
     }
 
     public Sms() {
@@ -20,11 +22,19 @@ public class Sms {
         this.to = to;
     }
 
-    public String getMessge() {
-        return messge;
+    public String getMessage() {
+        return message;
     }
 
-    public void setMessge(String messge) {
-        this.messge = messge;
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public String getFrom() {
+        return from;
+    }
+
+    public void setFrom(String from) {
+        this.from = from;
     }
 }
